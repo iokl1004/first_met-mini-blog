@@ -26,8 +26,8 @@ function App(props) {
             <MainTitleText>POP의 미니 블로그</MainTitleText>
             <Routes>
                 <Route index element={<MainPage />} />
-                <Route path="post-write" element={<PostWritePage />} />
-                <Route path="post/:postId" element={<PostViewPage />} />
+                <Route path={process.env.PUBLIC_URL + "post-write"} element={<PostWritePage />} />
+                <Route path={process.env.PUBLIC_URL + "post/:postId"} element={<PostViewPage />} />
             </Routes>
         </BrowserRouter>
     );
