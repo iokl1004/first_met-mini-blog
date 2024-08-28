@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/first_met-mini-blog/static/css/main.e6c13ad2.css",
+    "main.js": "/first_met-mini-blog/static/js/main.d17897ff.js",
+    "static/js/453.8028cf31.chunk.js": "/first_met-mini-blog/static/js/453.8028cf31.chunk.js",
+    "index.html": "/first_met-mini-blog/index.html",
+    "main.e6c13ad2.css.map": "/first_met-mini-blog/static/css/main.e6c13ad2.css.map",
+    "main.d17897ff.js.map": "/first_met-mini-blog/static/js/main.d17897ff.js.map",
+    "453.8028cf31.chunk.js.map": "/first_met-mini-blog/static/js/453.8028cf31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d17897ff.js"
+  ]
+}
