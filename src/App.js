@@ -1,8 +1,4 @@
-import {
-    BrowserRouter,
-    Routes,
-    Route
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
 // Pages
 import MainPage from './component/page/MainPage';
@@ -22,14 +18,14 @@ const MainTitleText = styled.p`
 // :postid는 동적으로 변하는 파라미터를 위한 값임
 function App(props) {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <div>
             <MainTitleText>POP의 미니 블로그</MainTitleText>
             <Routes>
                 <Route index element={<MainPage />} />
-                <Route path={process.env.PUBLIC_URL + "post-write"} element={<PostWritePage />} />
-                <Route path={process.env.PUBLIC_URL + "post/:postId"} element={<PostViewPage />} />
+                <Route path="post-write" element={<PostWritePage />} />
+                <Route path="post/:postId" element={<PostViewPage />} />
             </Routes>
-        </BrowserRouter>
+        </div>
     );
 }
 
