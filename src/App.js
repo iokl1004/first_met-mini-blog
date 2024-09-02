@@ -22,7 +22,7 @@ const MainTitleText = styled.p`
 // :postid는 동적으로 변하는 파라미터를 위한 값임
 function App(props) {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <MainTitleText>POP의 미니 블로그</MainTitleText>
             <Routes>
                 <Route index element={<MainPage />} />
